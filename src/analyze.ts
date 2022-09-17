@@ -10,3 +10,4 @@ class analyze {
     return array[length] + this.averageNumber(array, length - 1);
   }
 }
+export default analyze;
