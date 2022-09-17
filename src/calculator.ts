@@ -6,7 +6,8 @@ export const calculator = {
     return x - y;
   },
   divide(x: number, y: number) {
-    return x / y;
+    if (y) return x / y;
+    else return undefined;
   },
   multiply(x: number, y: number) {
     return x * y;
