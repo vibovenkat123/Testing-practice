@@ -8,3 +8,6 @@ it("subtract 6 - 4 to equal 2", () => {
 it("multiple 12 * 3 to equal 36", () => {
   expect(calculator.multiply(12, 3)).toEqual(36);
 });
+it("divide 12 / 3 to equal 4", () => {
+  expect(calculator.divide(12, 3)).toEqual(4);
+});
