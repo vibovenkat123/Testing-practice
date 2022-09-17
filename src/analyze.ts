@@ -1,9 +1,11 @@
 class analyze {
   average: number;
   min: number;
+  max: number;
   constructor(array: number[]) {
     this.average = this.averageNumber(array);
     this.min = Math.min(...array);
+    this.max = Math.max(...array);
   }
   sum(array: number[], length: number = array.length - 1) {
     if (length == 0) {

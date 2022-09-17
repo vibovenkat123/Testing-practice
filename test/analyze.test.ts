@@ -9,5 +9,7 @@ it("can get average of the array", () => {
 it("can get minimum value", () => {
   expect(arrayAnalyze.min).toEqual(1);
 });
-it.todo("can get maximum value");
+it("can get maximum value", () => {
+  expect(arrayAnalyze.max).toEqual(9);
+});
 it.todo("can get length");
