@@ -1,0 +1,1 @@
+function analyze(array: number[]) {}
