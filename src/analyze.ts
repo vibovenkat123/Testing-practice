@@ -1,1 +1,1 @@
-function analyze(array: number[]) {}
+class analyze {}
