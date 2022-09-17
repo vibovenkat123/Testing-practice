@@ -2,10 +2,12 @@ class analyze {
   average: number;
   min: number;
   max: number;
+  length: number;
   constructor(array: number[]) {
     this.average = this.averageNumber(array);
     this.min = Math.min(...array);
     this.max = Math.max(...array);
+    this.length = array.length;
   }
   sum(array: number[], length: number = array.length - 1) {
     if (length == 0) {

@@ -12,4 +12,6 @@ it("can get minimum value", () => {
 it("can get maximum value", () => {
   expect(arrayAnalyze.max).toEqual(9);
 });
-it.todo("can get length");
+it("can get length", () => {
+  expect(arrayAnalyze.length).toEqual(4);
+});
