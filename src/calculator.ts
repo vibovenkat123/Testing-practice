@@ -1,6 +1,6 @@
 export const calculator = {
   add(x: number, y: number) {
-    return x * y;
+    return x + y;
   },
   subtract(x: number, y: number) {
     return x - y;
