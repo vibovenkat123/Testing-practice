@@ -1,6 +1,9 @@
 function caesar(string: String, shift: number) {
   let stringArr: String[] = string.split("");
   for (const character in stringArr) {
+    let isUpper: boolean =
+      String(stringArr[character].toUpperCase()) == stringArr[character];
+    if (isUpper) stringArr[character] = stringArr[character].toLowerCase();
     if (!letters.includes(stringArr[character])) {
       continue;
     }
@@ -8,6 +11,7 @@ function caesar(string: String, shift: number) {
     let finalIndex: number = index + shift;
     finalIndex = checkForGreaterIndex(finalIndex, letters.length);
     let newLetter: String = letters.at(finalIndex)!;
+    if (isUpper) newLetter = newLetter.toUpperCase();
     stringArr[character] = newLetter;
   }
   return stringArr.join("");

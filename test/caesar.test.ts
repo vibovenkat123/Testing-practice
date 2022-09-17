@@ -14,3 +14,8 @@ it("can shift with two or more words", () => {
     "droco kbo wevdszvo gybnc"
   );
 });
+it("can shift with punctuation", () => {
+  expect(caesar("This sentence, has a lot? of punctuation!", 3)).toBe(
+    "Wklv vhqwhqfh, kdv d orw? ri sxqfwxdwlrq!"
+  );
+});
