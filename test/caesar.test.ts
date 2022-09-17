@@ -9,3 +9,8 @@ it("shifting 26 places is the same as original string", () => {
 it("can shift more than 26 places", () => {
   expect(caesar("hello", 32)).toBe("nkrru");
 });
+it("can shift with two or more words", () => {
+  expect(caesar("these are multiple words", 10)).toBe(
+    "droco kbo wevdszvo gybnc"
+  );
+});
