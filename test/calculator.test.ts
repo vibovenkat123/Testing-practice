@@ -23,3 +23,6 @@ it("multiplying punctuation", () => {
 it("dividing punctuation", () => {
   expect(calculator.divide(28.38, 8.6)).toBeCloseTo(3.3);
 });
+it("dividing by 0 is undefined", () => {
+  expect(calculator.divide(4, 0)).toBeUndefined;
+});
