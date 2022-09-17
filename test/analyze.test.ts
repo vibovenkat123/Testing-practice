@@ -6,6 +6,8 @@ beforeEach(() => {
 it("can get average of the array", () => {
   expect(arrayAnalyze.average).toEqual(5.25);
 });
-it.todo("can get minimum value");
+it("can get minimum value", () => {
+  expect(arrayAnalyze.min).toEqual(1);
+});
 it.todo("can get maximum value");
 it.todo("can get length");
