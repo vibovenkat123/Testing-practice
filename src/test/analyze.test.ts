@@ -1,4 +1,4 @@
-import analyze from "../src/analyze";
+import analyze from "../analyze";
 let arrayAnalyze: analyze;
 beforeEach(() => {
   arrayAnalyze = new analyze([1, 4, 7, 9]);

@@ -9,7 +9,7 @@ class analyze {
     this.max = Math.max(...array);
     this.length = array.length;
   }
-  sum(array: number[], length: number = array.length - 1) {
+  sum(array: number[], length: number = array.length - 1): number {
     if (length == 0) {
       return array[length];
     }

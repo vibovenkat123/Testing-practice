@@ -1,4 +1,4 @@
-import { calculator } from "../src/calculator";
+import { calculator } from "../calculator";
 describe("addition", () => {
   it("add 2 + 3 to equal 5", () => {
     expect(calculator.add(2, 3)).toEqual(5);

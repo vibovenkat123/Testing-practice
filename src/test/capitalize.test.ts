@@ -1,4 +1,4 @@
-import capitalizeFirst from "../src/capitalize";
+import capitalizeFirst from "../capitalize";
 describe("test capitalization", () => {
   it("capitalize hello to be Hello", () => {
     expect(capitalizeFirst("hello")).toBe("Hello");
