@@ -1,4 +1,4 @@
-import caesar from "../src/caesar";
+import caesar from "../caesar";
 describe("basic shifting testing", () => {
   it("Can shift 1 place", () => {
     expect(caesar("abc", 1)).toBe("bcd");

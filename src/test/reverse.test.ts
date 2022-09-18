@@ -1,4 +1,4 @@
-import reverseString from "../src/reverse";
+import reverseString from "../reverse";
 describe("test reverse", () => {
   it("reversing hello makes olleh", () => {
     expect(reverseString("hello")).toBe("olleh");
